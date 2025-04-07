@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# for running on windows: bash: `D:\ProgramData\anaconda3\python.exe D:\智能图像-数据\给参赛者下载的数据\黄立晨_电子科技大学\Algorithm\src\noise_anchor.py`
 
 
 class NoiseAnchorGenerator(nn.Module):

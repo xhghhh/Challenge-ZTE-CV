@@ -10,7 +10,6 @@ from fusion import FinalNoise, FusionHead
 from upsample import TransformerUpsampler
 from torchvision.utils import save_image
 
-# for running on windows: bash: `D:\ProgramData\anaconda3\python.exe src\run.py`
 
 # Workaround for OpenMP warning
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"

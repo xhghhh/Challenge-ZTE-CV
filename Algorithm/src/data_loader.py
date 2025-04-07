@@ -4,7 +4,6 @@ from torch.utils.data import Dataset, DataLoader
 from PIL import Image
 import os
 
-# for running on windows: bash: `D:\ProgramData\anaconda3\python.exe D:\智能图像-数据\给参赛者下载的数据\黄立晨_电子科技大学\Algorithm\src\data_loader.py`
 
 # 数据集路径
 clean_data_path = r"D:\智能图像-数据\给参赛者下载的数据\示例图片\GT"

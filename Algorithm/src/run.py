@@ -13,7 +13,6 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 
 
-# for running on windows: bash: `D:\ProgramData\anaconda3\python.exe src\run.py`
 
 def main():
     clean_data_path = r"D:\智能图像-数据\给参赛者下载的数据\示例图片\GT"
